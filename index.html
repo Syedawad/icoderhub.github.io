@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>icoder the coding hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+
+        
+        #container1 {
+            margin-top: 1%;
+        }
+
+        #container2 {
+            margin-top: 0%;
+        }
+
+        
+        #imagemargin{
+            margin-top: 1%;
+        }
+    
+       .colorchange{
+        color: burlywood ;
+       }
+       #drop{
+        
+        background-color:rgba(0, 0, 0, 0.196);
+       
+       }
+
+       .dropdown-item{
+        color: white;
+       }
+       .bodycolor{
+                
+                background-image: linear-gradient(to right, rgba(0, 0, 255, 0.804)  , rgb(221, 255, 0));
+       }
+       #underimagecolor{
+          
+        background-image: linear-gradient(to right, rgba(0, 0, 255, 0.804)  , rgb(221, 255, 0));
+       }
+      
+     
+       
+    </style>
+</head>
+
+<body class="bodycolor">
+
+    <!-- navbar portion -->
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#">icoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://bootstrap.com/" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" id="drop">
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="http://bootstrap.com/">Java</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="http://bootstrap.com/">Codes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider portion  -->
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+           <!-- slide 1  -->
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="slide1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Welcome to icoder</h2>
+                <p>Login in Laptop I have a gift for you <a class="btn btn-outline-info" href="gift.html" role="button">Gift😍</a></p>
+
+                <button type="button" class="btn btn-warning">Coding</button>
+                <button type="button" class="btn btn-danger">Development</button>
+                <button type="button" class="btn btn-success">Website</button>
+  
+              </div>
+            </div>
+
+             <!-- slide 2 color change slide -->
+
+            <div class="carousel-item">
+              <img src="slide2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+
+                <!-- color change div is here  -->
+
+                <div class="colorchange">
+                <h3>Best website</h3>
+                <p>Here we deliver you a best recommendations
+                    <a class="btn btn-outline-info" href="gift.html" role="button">Gift😍</a> </p>
+                </div>
+                <button type="button" class="btn btn-warning">Coding</button>
+                <button type="button" class="btn btn-danger">Development</button>
+                <button type="button" class="btn btn-success">Website</button>
+              </div>
+            </div>
+
+             <!-- slide 3  -->
+
+            <div class="carousel-item">
+              <img src="slide3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Thanks for being with us!</h5>
+                <p>Some good deeds is here for you <a class="btn btn-outline-info" href="gift.html" role="button">Gift😍</a> </p>
+                <button type="button" class="btn btn-warning">Coding</button>
+                <button type="button" class="btn btn-danger">Development</button>
+                <button type="button" class="btn btn-success">Website</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+
+
+    <!-- after slider the three images section -->
+
+    <!-- image 1 section  -->
+    
+    <div class="container" id="imagemargin">
+        <div class="container">
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="image1copy.jpg" class="card-img-top" alt="...">
+
+                    <!-- under image color id is here  -->
+                    <div class="card-body" id="underimagecolor">
+                        <h5 class="card-title">Html</h5>
+                        <p class="card-text">Html stand for hypertext markup language.Html is a basic language f programming in the phase of programming the first language you have to learn it's Html is also called structure of a website.</p>
+                        
+                    </div>
+                </div>
+            
+
+                <!-- image 2 section  -->
+
+                <div class="card">
+                    <img src="image2.jpg" class="card-img-top" alt="...">
+
+                    <!-- under image color id is here  -->
+                    <div class="card-body"id="underimagecolor">
+                        <h5 class="card-title">API</h5>
+                        <p class="card-text">API stands for Application Programming Interface. In the context of APIs, the word Application refers to any software with a distinct function. Interface can be thought of as a contract of service between two applications.</p>
+                       
+                    </div>
+                </div>
+
+                <!-- image 3 section  -->
+                <div class="card">
+                    <img src="image3.jpg" alt="...">
+
+                    <!-- under image color id is here  -->
+                    <div class="card-body" id="underimagecolor">
+                        <h5 class="card-title">ANIMATION</h5>
+                        <p class="card-text">Animation is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- the world or desing portion its class is(.container1) -->
+
+  
+    <div class="container" id="container1">
+        <main class="container">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+
+                            
+                            <strong class="d-inline-block mb-2 text-primary">World</strong>
+                            
+                            <h3 class="mb-0">Global world</h3>
+                       
+                            <div class="mb-1 text-muted">Nov 17</div>
+                            <p class="card-text mb-auto"> Welcome to icoder here we serves a global world codes like
+                                java,java script,python etc
+                            
+                            </p>
+                            <a href="http://www.bootstrap.com/" class="stretched-link">Code Link</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="globalworld.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Design</strong>
+                            <h3 class="mb-0">Web Desings</h3>
+                            <div class="mb-1 text-muted">Nov 17</div>
+                            <p class="mb-auto"> In this portion we are going to watch website desings how actually
+                                the good website looks</p>
+                            <a href="http://www.bootstrap.com/" class="stretched-link">Codes for you</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="webdesigns.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- unsplash and frameworks portion it also carry id(container 2) -->
+                <div class="container" id="container2">
+                    <main class="container">
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div
+                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                    <div class="col p-4 d-flex flex-column position-static">
+                                        <strong class="d-inline-block mb-2 text-info">Best Images</strong>
+                                        <h3 class="mb-0">Source Unsplash</h3>
+                                        <div class="mb-1 text-muted">Nov 17</div>
+                                        <p class="card-text mb-auto">
+                                            You can best images for your websites from there.
+                                        </p>
+                                        <a href="http://source.unsplash.com/" class="stretched-link">Code Link</a>
+                                    </div>
+                                    <div class="col-auto d-none d-lg-block">
+                                        <img src="unsplash.jpg" class="bd-placeholder-img" width="200" height="250"
+                                            alt="">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div
+                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                    <div class="col p-4 d-flex flex-column position-static">
+                                        <strong class="d-inline-block mb-2 text-secondary">React Js</strong>
+                                        <h3 class="mb-0">Frameworks</h3>
+                                        <div class="mb-1 text-muted">Nov 17</div>
+                                        <p class="mb-auto">Frameworks is most important during web development phase.
+                                        </p>
+                                        <a href="http://www.bootstrap.com/" class="stretched-link">Codes for you</a>
+                                    </div>
+                                    <div class="col-auto d-none d-lg-block">
+                                        <div class="col-auto d-none d-lg-block">
+                                            <img src="framework.jpg" class="bd-placeholder-img" width="200" height="250"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <hr>
+                             <footer>
+                                <div class="row">
+                                       
+                                       <div class="col-sm-4">© Syed Jawad(Ubitian)</div>
+                                       <div class="col-sm-1"><a href="#">Privacy</a></div>
+                                       <div class="col-sm-1"><a href="#">Terms</a></div>
+                                       <div class="col-sm-6"><p class="float-end"><a href="#">Back to top</a></p></div>
+                                </div>
+                               </footer>
+                             <!-- <footer class="container" class="row">
+                                <p class="float-end"><a href="#">Back to top</a></p>
+                                <p>© Syed Jawad(Ubitian). · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                            </footer> -->
+
+
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                                crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>icoder the coding hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+
+
+        #container1 {
+            margin: 1%;
+            margin-left: 1%;
+        }
+
+        #displayflex1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #displayflex2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+  
+        #displayflex3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bodycolor{
+                
+                background-image: linear-gradient(to right, rgba(0, 0, 255, 0.804) , rgb(221, 255, 0));
+        }  
+        #drop{
+        
+        background-color:rgba(0, 0, 0, 0.196);
+        }          
+        .dropdown-item{
+        color: white;
+       }  
+    </style>
+</head>
+
+<body class="bodycolor">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">icoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" id="drop">
+                            <li><a class="dropdown-item" href="http://bootstrap.com/">Python</a></li>
+                            <li><a class="dropdown-item" href="http://bootstrap.com/">Java</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="http://bootstrap.com/">Codes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <!-- container 1 id is here  -->
+        <div class="container marketing" id="container1">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="aboutround1.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        alt="">
+                    <h2>Plan</h2>
+                    <p>Planning is most important phase in your web development journey so execute the best plans for
+                        your project</p>
+                    <p><a class="btn btn-secondary" href="http://bootstrap.com/">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="aboutround2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        alt="">
+
+                    <h2>Design</h2>
+                    <p>Once your plan is ready so it's the time to design a website, how is it working each and everything about your website design.</p>
+                    <p><a class="btn btn-secondary" href="http://bootstrap.com/">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="aboutround3.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        alt="">
+
+                    <h2>Develop</h2>
+                    <p>The final thing you do is development in this phase you should have to focus and humble and do axitis what's you plan.</p>
+                    <p><a class="btn btn-secondary" href="http://bootstrap.com/">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <!-- /.row -->
+            </div>
+
+            <!-- START THE FEATURETTES -->
+            <div class="container">
+                <hr class="featurette-divider">
+
+                <!-- about first flex changing id is here   -->
+                <div class="row featurette" id="displayflex1">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">First Feature of icoder. <span class="text-muted">It’ll blow your
+                                mind.</span></h2>
+                        <p class="lead">Some great placeholder content for the first feature here. Imagine some exciting
+                            prose here.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="aboutfeature1.jpg"
+                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" alt="">
+
+                    </div>
+                </div>
+
+
+                <!-- about second flex changing id is here   -->
+                <hr class="featurette-divider">
+                <div class="row featurette" id="displayflex2">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Second Feature of icoder. <span class="text-muted">See for
+                                yourself.</span></h2>
+                        <p class="lead">Another feature? Of course. More placeholder content here to give you an idea of
+                            how this layout would work with some actual real-world content in place.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img src="aboutfeature2.jpg"
+                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" alt="">
+
+                    </div>
+                </div>
+
+                <!-- about third flex changing id is here   -->
+                <hr class="featurette-divider">
+                <div class="row featurette" id="displayflex3">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Third Feature of icoder. <span
+                                class="text-muted">Checkmate.</span></h2>
+                        <p class="lead">And yes, this is the last block of representative placeholder content. Again,
+                            not really intended to be actually read, simply here to give you a better view of what this
+                            would look like with some actual content. Your content.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="aboutfeature3.jpg"
+                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" alt="">
+
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- /END THE FEATURETTES -->
+
+            </div>
+        </div>
+
+       
+        
+            
+        <footer>
+            <div class="row">
+                   
+                   <div class="col-sm-4">© Syed Jawad(Ubitian)</div>
+                   <div class="col-sm-1"><a href="#">Privacy</a></div>
+                   <div class="col-sm-1"><a href="#">Terms</a></div>
+                   <div class="col-sm-6"><p class="float-end"><a href="#">Back to top</a></p></div>
+            </div>
+           </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
